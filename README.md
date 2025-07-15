@@ -81,11 +81,11 @@ Check out the deployed version on GitHub Pages or run locally using Node.js.
 
 ## 👨‍💻 Developer
 
-**Siri Namburi**  
+Siri Namburi
 📧 23b01a05c1@svecw.edu.in  
 🔗 [nsiri369](https://github.com/nsiri369)
 
----
+```
 
 ## 📄 License
 
