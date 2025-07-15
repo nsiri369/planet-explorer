@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Galaxy Planet Explorer</title>
+    <!-- 🚀 Favicon using Rocket Emoji -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2280%22>🚀</text></svg>">
+    
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: black;
+        }
+
+        .parallax-section {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px #000;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        #section1 {
+            background-image: url('images/imagesbg1.jpg');
+        }
+
+        #section2 {
+            background-image: url('images/imagesbg2.jpg');
+        }
+
+        .parallax-section h1 {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .parallax-section p {
+            font-size: 1.6em;
+        }
+
+        .content-section {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .content-section p {
+            margin: 0 auto 30px;
+            width: 80%;
+            font-size: 1.5em;
+        }
+
+        .planet-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .planet-buttons a {
+            text-decoration: none;
+        }
+
+        .planet-buttons button {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            padding: 18px 36px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            cursor: pointer;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 0 10px rgba(173, 216, 230, 0.3), 0 0 20px rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .planet-buttons button:hover {
+            background: rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 15px #00f0ff, 0 0 30px #00f0ff;
+            transform: scale(1.07);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parallax-section" id="section1">
+        <div>
+            <h1>🌌 Explore the Universe</h1>
+            <p>Tap a planet to begin your cosmic journey</p>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <p>Select a planet below to discover more:</p>
+
+        <div class="planet-buttons">
+            <a href="mercury.html"><button>Mercury</button></a>
+            <a href="Venus.html"><button>Venus</button></a>
+            <a href="earth.html"><button>Earth</button></a>
+            <a href="mars.html"><button>Mars</button></a>
+            <a href="jupiter.html"><button>Jupiter</button></a>
+            <a href="saturn.html"><button>Saturn</button></a>
+            <a href="Uranus.html"><button>Uranus</button></a>
+            <a href="neptune.html"><button>Neptune</button></a>
+        </div>
+    </div>
+
+    <div class="parallax-section" id="section2">
+        <div>
+            <h1>✨ Discover More</h1>
+            <p>The universe is just a scroll away</p>
+        </div>
+    </div>
+
+    <div class="content-section">
+        <p>Each planet is a world of wonder. Dive deeper and uncover cosmic secrets!</p>
+    </div>
+
+</body>
+</html>
