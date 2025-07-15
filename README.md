@@ -4,10 +4,6 @@
 
 ---
 
-## 🚀 Live Demo
-
-🔗 [Visit Live Project](https://nsiri369.github.io/planet-explorer)  
-*(Replace with your GitHub Pages or hosting URL if different)*
 
 ---
 
@@ -75,9 +71,14 @@ npm install
 node server.js
 
 # Open in browser
-http://localhost:3000
-```
+Go to [http://localhost:3000](http://localhost:3000)
 
+```
+## 🌍 Live Demo
+
+Check out the deployed version on GitHub Pages or run locally using Node.js.
+
+```
 
 ## 👨‍💻 Developer
 
