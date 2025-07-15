@@ -83,7 +83,7 @@ Check out the deployed version on GitHub Pages or run locally using Node.js.
 
 **Siri Namburi**  
 📧 23b01a05c1@svecw.edu.in  
-🔗 [GitHub Profile](https://github.com/nsiri369)
+🔗 [nsiri369](https://github.com/nsiri369)
 
 ---
 
